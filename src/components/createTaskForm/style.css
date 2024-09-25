@@ -1,0 +1,10 @@
+.create-task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.create-task input {
+    width: 900px;
+}

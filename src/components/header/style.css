@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    padding-left: 100px;
+    background-color: #586878;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+}
+
+.header__title {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.header__greeting {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header__greeting span {
+    color: rgb(255, 239, 220);
+}
