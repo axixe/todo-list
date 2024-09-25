@@ -15,7 +15,7 @@ TODO List is a simple task management application. It allows you to add, change,
 
 1. Clone the repository:
 ```bash
-    git clone https://github.com/ваше_имя_пользователя/ваш_репозиторий.git
+    git clone [https://github.com/axixe/todo-list.git](https://github.com/axixe/todo-list)
 ```
 
 2. Go to the project directory:
