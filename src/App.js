@@ -8,10 +8,10 @@ export default class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: 'axixe',
+            name: 'Your Name',
             posts: [
-                {content: 'Посмотреть Гарри-Поттера', status: 'active', id: 0},
-                {content: 'Убраться дома', status: 'completed', id: 1}
+                {content: 'Watch the "Harry Potter" movie', status: 'active', id: 0},
+                {content: 'Clean the house', status: 'completed', id: 1}
             ]
         }
 

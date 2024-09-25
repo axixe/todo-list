@@ -12,7 +12,7 @@ function TaskList({ status, children }) {
 
     return (
         <div className={`task-list__block task-list__block--${status}`}>
-            <h3 className={`task-list__title task-list__title--${status}`}>{status === 'active' ? 'Активные' : 'Завершённые'}: </h3>
+            <h3 className={`task-list__title task-list__title--${status}`}>{status === 'active' ? 'Active' : 'Completed'}: </h3>
             <ul style={listStyle}>
                 {children}
             </ul>
@@ -22,7 +22,7 @@ function TaskList({ status, children }) {
 
 function TaskListNothing() {
     return (
-        <div className='task-list__item--nothing'>Задачи не найдены</div>
+        <div className='task-list__item--nothing'>Tasks not found</div>
     )
 }
 

@@ -33,7 +33,7 @@ export default class CreatePost extends React.Component {
                 value: ''
             });
         } else {
-            alert('Неверная длина задачи');
+            alert('Invalid input length');
         }
     }
 
@@ -42,8 +42,8 @@ export default class CreatePost extends React.Component {
 
         return (
             <form className='create-task' onSubmit={this.handleSubmit} >
-                <Input type='text' placeholder='Добавь своё дело тут!' value={value} onChange={this.handleChange} />
-                <Button color="primary">Добавить</Button>
+                <Input type='text' placeholder='Add your task right here!' value={value} onChange={this.handleChange} />
+                <Button color="primary">ADD</Button>
             </form>
         )
     }
